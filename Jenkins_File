@@ -3,7 +3,7 @@ agent { label 'Master' }
 stages {
 stage ("SCM Chkout-1"){
 steps {
-git 'https://github.com/Vishwanathms/Java-Proj1'
+git 'https://github.com/Manjunat21/Java-Proj1'
 }
 }
 stage ("Java execute"){
