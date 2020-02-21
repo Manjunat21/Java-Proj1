@@ -1,7 +1,8 @@
 pipeline {
 agent { label 'Master' }
 stages {
-stage ("SCM Chkout-1"){
+stage ("SCM Chkout-1")
+{
 steps {
 git 'https://github.com/Manjunat21/Java-Proj1'
 }
